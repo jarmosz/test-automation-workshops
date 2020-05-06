@@ -62,7 +62,7 @@ describe('AppComponent', () => {
     expect(component.verifyDate(1897, 12, 32)).toBe(false);
 
   });
-
+  // Dodane testy
   it('should accept valid dates', () => {
     let peselArray = new Array();
     for (let i = 0; i < 11; i++) {
