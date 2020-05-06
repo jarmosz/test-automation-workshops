@@ -73,7 +73,7 @@ describe('AppComponent', () => {
     for (let i = 0; i < 11; i++) {
       peselArray[i] = parseInt('25701901472'.substring(i, i + 1), 10);
     }
-    expect(component.getYear(peselArray)).toBe(2225);
+    expect(component.getYear(peselArray)).toBe(1975);
   });
   it('Should write good values to state', () => {
     const peselArray = new Array();
